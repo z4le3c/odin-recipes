@@ -1,13 +1,44 @@
 body {
-    background-color: aliceblue;
+    background-color: #eae2b7;
+}
+.container {
+    margin: 0 15%;
+    background-color: #fcbf49;
+    padding: 50px;
 }
 h1 {
     font-family: 'Courier New', monospace;
-    color: royalblue;
+    color: #003049;
+    text-align: center;
 }
 h2 {
-    color:darkcyan;
+    color:#d62828
 }
 h3 {
-    color:cadetblue;
+    color:#f77f00;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+ul li {
+    list-style-type: circle;
+}
+.recipes {
+    list-style: none;
+    text-align: center;
+}
+.recipes p {
+    margin: 7px 0px;
+}
+
+ul {
+    background-color: bisque;
+    padding: 10px;
 }
